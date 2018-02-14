@@ -1,0 +1,57 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.transmilenio.fuerzaoperativa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activites.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activites.MainActivity"
+            android:parentActivityName=".activites.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activites.ListaSurveyActivity"
+            android:parentActivityName=".activites.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activites.ListaSurveyEnvioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activites.CreacionUsuariosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activites.SeleccionModoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activites.ConteoDesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activites.ListaRegistrosConteoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activites.ConteoRegistroActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activites.ConteoServActivity" />
+    </application>
+
+</manifest>

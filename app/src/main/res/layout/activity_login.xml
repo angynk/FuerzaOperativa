@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.transmilenio.fuerzaoperativa.activites.LoginActivity"
+    android:background="@color/colorMainLogin">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/lg_user_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_usuario"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="148dp"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/lg_pass_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lg_user_editText"
+        android:layout_alignStart="@+id/lg_user_editText"
+        android:layout_below="@+id/lg_user_editText"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="@string/hint_contrasena"
+        android:inputType="textPassword" />
+
+    <Switch
+        android:id="@+id/lg_recordar_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_admin"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/lg_pass_editText"
+        android:layout_alignRight="@+id/lg_pass_editText"
+        android:layout_alignEnd="@+id/lg_pass_editText"
+        />
+
+    <Button
+        android:id="@+id/lg_iniciar_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lg_pass_editText"
+        android:layout_alignStart="@+id/lg_pass_editText"
+        android:layout_below="@+id/lg_recordar_switch"
+        android:layout_marginTop="19dp"
+        android:text="@string/button_iniciar"
+        android:layout_alignRight="@+id/lg_recordar_switch"
+        android:layout_alignEnd="@+id/lg_recordar_switch"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorTextButton"/>
+
+    <Button
+        android:id="@+id/lg_invitado_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lg_iniciar_button"
+        android:layout_alignStart="@+id/lg_iniciar_button"
+        android:layout_below="@+id/lg_iniciar_button"
+        android:layout_marginTop="12dp"
+        android:text="@string/button_iniciar_anonimo"
+        android:layout_alignRight="@+id/lg_iniciar_button"
+        android:layout_alignEnd="@+id/lg_iniciar_button"
+        android:background="@color/colorButtonNormal"
+        android:textColor="@color/colorTextButton"/>
+
+</RelativeLayout>

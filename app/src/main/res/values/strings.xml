@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">TransMiSurvey</string>
+
+
+    <string name="continuar">Continuar</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="diaSemana">Día Semana</string>
+    <string name="codigo">Servicio</string>
+    <string name="vagon">Vagon</string>
+    <string name="numBus">Número Bus</string>
+    <string name="text_num_puerta">Número Puerta</string>
+    <string name="recorrido">Recorrido</string>
+    <string name="infoBase">Información Base</string>
+    <string name="listRegistro">Registros Encuesta</string>
+    <string name="banner_encuestas">Encuestas</string>
+    <string name="nuevoRegistro">Nuevo Registro</string>
+    <string name="llegada">H.Llegada</string>
+    <string name="despacho">H.Despacho</string>
+    <string name="salida">H.Salida</string>
+    <string name="estacion">Estación</string>
+    <string name="tipo">Tipo</string>
+    <string name="bajan">Se Bajan</string>
+    <string name="suben">Se Suben</string>
+    <string name="quedan">Se Quedan</string>
+    <string name="text_salir_encuesta">Salir de Encuesta</string>
+
+    <string name="button_finalizar">Finalizar</string>
+    <string name="button_guardar">Guardar Cambios</string>
+    <string name="button_comentario">Guardar Comentario</string>
+    <string name="button_ignorar">Ignorar Cambios</string>
+    <string name="button_cancelar">Cancelar</string>
+    <string name="button_enviar">Enviar</string>
+    <string name="button_limpiar">Limpiar</string>
+    <string name="button_iniciar">Iniciar</string>
+    <string name="button_nuevo">Nuevo</string>
+    <string name="button_crear">Crear</string>
+    <string name="button_eliminar_todo"> Eliminar Todo </string>
+    <string name="button_iniciar_anonimo">Inicio Invitado</string>
+    <string name="button_observacion">¿Tiene Observaciones?</string>
+    <string name="button_troncal">Troncal</string>
+    <string name="button_alimentador">Alimentador</string>
+
+    <string name="txt_encuestasEnviadas">Encuestas Enviadas</string>
+    <string name="txt_encuestasPendientes">Encuestas Pendientes</string>
+    <string name="txt_opciones">Opciones</string>
+    <string name="txt_tiene_observaciones">Encuesta Registrada!</string>
+    <string name="txt_seleccione_Servicios">Seleccione los servicios</string>
+    <string name="txt_ninguna">Ninguna</string>
+    <string name="txt_gestion_usuarios">Gestión Usuarios</string>
+    <string name="txt_nuevo_usuario">Nuevo Usuario</string>
+    <string name="txt_zona">Zona</string>
+    <string name="txt_sentido">Sentido</string>
+    <string name="txt_hora_paso">Hora Paso</string>
+    <string name="txt_codigo">Codigo</string>
+    <string name="txt_ocupacion">Ocupación</string>
+    <string name="txt_Modo">Modo</string>
+    <string name="txt_Estacion">Estación</string>
+
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="hint_admin">Admin</string>
+
+    <string name="menu_salir">Cerrar Sesión</string>
+    <string name="menu_olvidar">Cerrar Sesión y Olvidar</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="trs_origen">Origen</string>
+    <string name="trs_destino">Destino</string>
+    <string name="trs_transbordos">Transbordos</string>
+    <string name="trs_adicional">Info Adicional</string>
+    <string name="trs_transbordo_no1">Transbordo No.1</string>
+    <string name="trs_transbordo_no2">Transbordo No.2</string>
+    <string name="trs_transbordo_no3">Más de 2 transbordos</string>
+    <string name="trs_cant_veces">Número de veces por semana</string>
+    <string name="trs_modo_llegada">Modo llegada</string>
+
+
+</resources>
